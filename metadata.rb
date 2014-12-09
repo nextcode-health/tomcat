@@ -8,6 +8,7 @@ version          '0.16.3'
 
 depends 'java'
 depends 'openssl'
+depends 'yum-epel'
 
 supports 'debian'
 supports 'ubuntu'
