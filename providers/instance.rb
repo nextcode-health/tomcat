@@ -162,6 +162,7 @@ action :configure do
         :ssl_port => new_resource.ssl_port,
         :ssl_proxy_port => new_resource.ssl_proxy_port,
         :ajp_port => new_resource.ajp_port,
+        :ajp_charset => new_resource.ajp_charset,
         :shutdown_port => new_resource.shutdown_port,
         :max_threads => new_resource.max_threads,
         :ssl_max_threads => new_resource.ssl_max_threads,
