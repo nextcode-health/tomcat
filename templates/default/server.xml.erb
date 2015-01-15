@@ -116,7 +116,7 @@
                protocol="AJP/1.3"
                connectionTimeout="3600000"
                tomcatAuthentication="<%= @tomcat_auth %>"
-               URIEncoding="UTF-8"
+               URIEncoding="<%= @ajp_charset %>"
                redirectPort="<%= @ssl_port %>" />
   <% end -%>
 
