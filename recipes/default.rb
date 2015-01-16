@@ -75,6 +75,7 @@ if node['tomcat']['run_base_instance']
     ssl_port node['tomcat']['ssl_port']
     ssl_proxy_port node['tomcat']['ssl_proxy_port']
     ajp_port node['tomcat']['ajp_port']
+    ajp_charset node['tomcat']['ajp_charset']
     shutdown_port node['tomcat']['shutdown_port']
   end
 end
@@ -86,6 +87,7 @@ node['tomcat']['instances'].each do |name, attrs|
     ssl_port attrs['ssl_port']
     ssl_proxy_port attrs['ssl_proxy_port']
     ajp_port attrs['ajp_port']
+    ajp_charset attrs['ajp_charset']
     shutdown_port attrs['shutdown_port']
     config_dir attrs['config_dir']
     log_dir attrs['log_dir']
