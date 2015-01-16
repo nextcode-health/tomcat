@@ -17,6 +17,7 @@ end
 
 group :kitchen_vagrant do
   gem 'kitchen-vagrant', '~> 0.11'
+  gem 'vagrant-wrapper'
 end
 
 group :kitchen_cloud do
