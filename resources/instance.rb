@@ -17,8 +17,6 @@ attribute :ssl_proxy_port,
   :kind_of => Fixnum
 attribute :ajp_port,
   :kind_of => Fixnum
-attribute :ajp_charset,
-  :kind_of => String  
 attribute :shutdown_port,
   :kind_of => Fixnum,
   :required => true
