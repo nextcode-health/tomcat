@@ -69,8 +69,8 @@ if node['tomcat']['run_base_instance']
     ajp_charset node['tomcat']['ajp_charset']
     shutdown_port node['tomcat']['shutdown_port']
 
-    user node['tomcat']['user']
-    group node['tomcat']['group']
+    user attrs['user']
+    group attrs['group']
 
   end
 end
