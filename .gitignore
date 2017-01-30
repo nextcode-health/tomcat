@@ -13,3 +13,7 @@ Gemfile.lock
 bin
 .kitchen.local.yml
 .coverage
+
+#intellij files
+.idea/
+*.iml

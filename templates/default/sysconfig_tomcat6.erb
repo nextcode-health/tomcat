@@ -63,3 +63,6 @@ JAVA_ENDORSED_DIRS="<%= @endorsed_dir %>"
 # put your own definitions here
 # (i.e. LD_LIBRARY_PATH for some jdbc drivers)
 
+<% if node['ld_library_path'] %>
+LD_LIBRARY_PATH="<%= node['ld_library_path'] %>"
+<% end %>
